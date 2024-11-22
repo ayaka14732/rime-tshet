@@ -60,9 +60,9 @@ speller:
   delimiter: " '"
   algebra:
     - "xform/'//"
-    - derive/[qh]$// # 聲調
     - abbrev/^([a-z]).+$/$1/
     - abbrev/^([^aeiouyw]+).+$/$1/
+    - abbrev/[qh]$// # 聲調
 
 translator:
   dictionary: tupa
